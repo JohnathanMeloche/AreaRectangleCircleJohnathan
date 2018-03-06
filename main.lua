@@ -58,9 +58,8 @@ circle.strokeWidth = 15
 --stroke color of circle
 circle:setStrokeColor( 1, 0, 0 )
 
+--sets radius for circle
 radiusCircle = 120
-
-
 
 --Area equals width times height
 areaRect = widthRect * heightRect
@@ -88,8 +87,6 @@ areaText.y = display.contentHeight/2
 
 -- color of text
 areaText:setFillColor (1, 1, 1)
-
-
 
 --Area equals width times height
 areaCircle = radiusCircle * 3.1415 * radiusCircle
