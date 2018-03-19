@@ -114,3 +114,8 @@ areaText2.y = display.contentHeight/1.5
 
 -- color of text
 areaText2:setFillColor (1, 1, 1)
+
+
+local backgroundMusic = audio.loadSound ("Sounds/Party.mp3")
+
+audio.play (backgroundMusic)
